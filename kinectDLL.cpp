@@ -5,6 +5,7 @@
 using namespace cv;
 using namespace std;
 
+int Observer::static_number_ = 0;
 
 kinectSubject* getKinectSubject() {
 	return new kinectSubject();
